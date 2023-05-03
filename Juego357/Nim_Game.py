@@ -113,6 +113,14 @@ def agente(col1, col2, col3):
                     num = col3
         # if (col1h+col2h+col3h == 2):
          #   num += 1
+    #caso extremo de debugging donde num=0
+    if (num == 0):
+        print("Situación de debugging")
+        print(f"col1h: {col1h}, col2h: {col2h}, col3h: {col3h}")
+        print(f"col1: {col1}, col2: {col2}, col3: {col3}")
+        print(f"nimSum: {nimSum()}")
+        print(f"col: {col}, num: {num}")
+        printBoard()
     return col, num
 
 
